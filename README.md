@@ -17,7 +17,7 @@ Built with **React 18 + Vite**, **Tailwind CSS**, **Node.js (ES Modules) + Expre
 | **Azzurro Pod Hotel Darling Harbour** | `chateau-de-venus` | [booking.com/hotel/au/chateau-de-venus](https://www.booking.com/hotel/au/chateau-de-venus.html) | **30** |
 | **Total Real Reviews** | | | **272** |
 
-> **Zero Mock Data:** 100% of reviews in MongoDB and the exported sample file are authentic, live Booking.com guest submissions with real reviewer names (e.g. Farzaneh, Parker, Georgia, Dylan, Malcolm, Leif) and countries.
+> **Zero Mock Data:** 100% of reviews in MongoDB are authentic, live Booking.com guest submissions with real reviewer names (e.g. Farzaneh, Parker, Georgia, Dylan, Malcolm, Leif) and countries.
 
 ---
 
@@ -195,11 +195,7 @@ azzurre-review-insights/
 │   ├── services/               # aiService.js (Groq + Gemini integration)
 │   └── index.js                # Express app entry point
 │
-├── sample-data/
-│   └── reviews-sample.json     # 272 verified real Booking.com reviews
-│
 ├── TRIAL_UPDATES_AND_VOICE_NOTE.md # 25-min developer logs & voice note script
-├── 15min-updates.md            # Trial progress log
 └── README.md                   # Full platform documentation
 ```
 
