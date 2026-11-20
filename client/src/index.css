@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+body {
+  background-color: #FAF8F4;
+  color: #0F172A;
+  font-family: 'Poppins', sans-serif;
+}
