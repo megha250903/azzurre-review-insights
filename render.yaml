@@ -2,9 +2,8 @@ services:
   - type: web
     name: azzurre-review-insights
     runtime: node
-    rootDir: server
-    buildCommand: cd ../client && npm install && npm run build && cd ../server && npm install
-    startCommand: node index.js
+    buildCommand: npm run build && cd server && npm install
+    startCommand: cd server && node index.js
     envVars:
       - key: MONGO_URI
         sync: false
